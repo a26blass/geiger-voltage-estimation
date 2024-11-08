@@ -52,6 +52,5 @@ def determine_operating_voltage(file_path, start_threshold=200, end_threshold=30
     print(f"Estimated Operating Voltage: {operating_voltage:.2f} V")
     return operating_voltage
 
-# Use this function with your file path
-file_path = 'geiger_data.xlsx'  # Replace with the path to your Excel file
+file_path = 'geiger_data.xlsx' 
 operating_voltage = determine_operating_voltage(file_path, start_threshold=300, end_threshold=300)
